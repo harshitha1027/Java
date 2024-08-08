@@ -7,13 +7,13 @@ public class palindrome {
 		int x=212;
 		int rem=0;
 		int sum=0;
-		int i=1;
+		
 		while(x!=0)
 		{
 			rem=x%10;
-			sum=sum+rem*i;
+			sum=sum*10+rem;
 			x=x/10;
-		i*=10;
+		
 		
 		}
 		System.out.println(sum);
